@@ -1,0 +1,227 @@
+body {
+  margin: 0;
+}
+
+.page {
+  width: 100%;
+  float: left;
+}
+
+.top {
+  background-color: skyblue;
+  width: 100%;
+}
+.top .content {
+  overflow: hidden;
+}
+
+.content {
+  max-width: 1380px;
+  margin: auto;
+  position: relative;
+}
+
+.navbar {
+  float: right;
+  width: 50%;
+}
+
+.navbar ul {
+  float: right;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+}
+
+li {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+}
+.navbar li:nth-child(1) {
+  background-color: black;
+}
+
+li:hover {
+  background-color: black;
+  cursor: pointer;
+}
+.top img {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.first.row {
+  background-color: red;
+  width: 100%;
+}
+
+.first.row > .content img {
+  width: 50px;
+  float: left;
+  position: absolute;
+}
+.first.row img {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xxx-large;
+  font-size-adjust: 1;
+  margin: 0;
+  text-align: center;
+  line-height: 400px;
+}
+
+.second.row {
+  width: 100%;
+}
+.second.row .content {
+  margin: 20px auto;
+  display: flex;
+}
+.sidebar {
+  position: relative;
+  background-color: teal;
+  width: 40%;
+  height: 500px;
+  margin-right: 20px;
+}
+
+.block {
+  position: absolute;
+  background-color: wheat;
+  width: 50%;
+  height: 75%;
+  left: -35px;
+  top: 20px;
+}
+
+.right.side {
+  width: 58%;
+  float: left;
+}
+
+.main {
+  background-color: magenta;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  float: left;
+  width: 100%;
+}
+
+form {
+  width: 70%;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.473);
+  border-color: rgba(255, 255, 255, 0.418);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.sel {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 100%;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.473);
+  border-color: rgba(255, 255, 255, 0.418);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 1px;
+}
+
+.triangle {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 14px solid magenta;
+  pointer-events: none;
+}
+
+button:disabled {
+  width: 20%;
+  padding: 10px 10px;
+  border-width: 2px;
+  border-radius: 1px;
+  border-color: rgba(255, 255, 255, 0.596);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.473);
+  height: 40px;
+  overflow: hidden;
+}
+
+span {
+  color: white;
+  font-size: large;
+}
+
+.extra {
+  background-color: burlywood;
+  height: 48%;
+  width: 100%;
+  float: left;
+}
+
+.bottom {
+  background-color: tomato;
+  width: 100%;
+}
+
+.bottom .content {
+  text-align: center;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.bottom ul {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.bottom li {
+  border-right: 1px solid;
+  padding: 0px 20px;
+  text-decoration: none;
+  display: inline-block;
+  white-space: normal;
+}
+li:last-child {
+  border: none;
+}
+
+.bottom li:hover {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
