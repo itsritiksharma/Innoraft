@@ -1,0 +1,13 @@
+.panel,
+.flip {
+  padding: 10px;
+  background-color: lightgray;
+  border: 1px solid;
+  text-align: center; }
+
+.flip {
+  padding: 50px;
+  background-color: lightblue;
+  display: none; }
+
+/*# sourceMappingURL=style%202.css.map */
