@@ -1,0 +1,25 @@
+body {
+  display: grid;
+  grid-template-columns: 65% auto;
+  grid-template-rows: 110px 500px 110px;
+  grid-template-areas: "header header" "main sidebar" "footer footer";
+  height: 100%;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.header {
+  grid-area: header;
+  background-color: pink;
+}
+.main {
+  grid-area: main;
+  background-color: rgb(204, 123, 137);
+}
+.sidebar {
+  grid-area: sidebar;
+  background-color: rgb(211, 81, 103);
+}
+.footer {
+  grid-area: footer;
+  background-color: rgb(209, 39, 67);
+}

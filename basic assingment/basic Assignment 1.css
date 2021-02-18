@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  float: left;
+  width: 100%;
+  padding: 1%;
+}
+.page {
+  width: 100%;
+  margin: auto;
+}
+.header {
+  background-color: rgb(219, 152, 163);
+  width: 100%;
+  float: left;
+  padding: 5% 0%;
+}
+.row {
+  width: 100%;
+  float: left;
+  margin: 1% 0%;
+}
+
+.left.column {
+  float: left;
+  width: 65%;
+  padding: 20% 0;
+  background-color: palevioletred;
+}
+.right.column {
+  float: left;
+  width: 34%;
+  background-color: rgb(153, 58, 90);
+  padding: 20% 0;
+  margin-left: 1%;
+}
+
+.footer {
+  background-color: rgb(151, 36, 75);
+  width: 100%;
+  float: left;
+  padding: 5% 0%;
+}

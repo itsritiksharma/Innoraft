@@ -1,0 +1,97 @@
+body {
+  margin: 2% 2%;
+}
+
+#page {
+  background-color: red;
+  width: 1459px;
+  margin: auto;
+  overflow: hidden;
+}
+
+#top {
+  width: 100%;
+  float: left;
+}
+#top > div {
+  display: inline-block;
+}
+
+.main {
+  width: 50%;
+  float: left;
+}
+.logo {
+  width: 50%;
+  float: left;
+}
+h1,
+p,
+h2 {
+  width: 100%;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  font-weight: lighter;
+  font-size: xxx-large;
+}
+.intro {
+  width: 86.5%;
+  height: 100%;
+  padding: 4% 6%;
+  padding-bottom: 8%;
+  float: left;
+}
+
+img {
+  float: inline-end;
+  height: 200px;
+  width: auto;
+  padding-right: 25%;
+}
+
+.box {
+  background-color: rgb(97, 8, 8);
+  width: 100%;
+  float: left;
+  padding-bottom: 1%;
+}
+
+#bottom {
+  width: 100%;
+  float: left;
+}
+
+.box {
+  width: 27%;
+  float: left;
+  padding: 3% 3%;
+  height: inherit;
+}
+.box:nth-child(1) {
+  width: 33%;
+  padding-bottom: 6.25%;
+  box-sizing: border-box;
+}
+
+.box:nth-child(2) {
+  margin: 0px 0.5%;
+}
+.box:nth-child(3) {
+  float: left;
+  position: static;
+}
+.content {
+  padding-right: 3%;
+  font-style: normal;
+  font-size: small;
+  color: white;
+  opacity: 90%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  padding-top: 2%;
+}
+h2 {
+  font-weight: initial;
+}

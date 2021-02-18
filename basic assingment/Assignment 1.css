@@ -1,0 +1,27 @@
+.flex {
+  display: flex;
+}
+.first {
+  background: rgb(216, 128, 143);
+  padding: 3%;
+}
+.second {
+  margin: 10px 0px 10px 0;
+  width: 50%;
+  background: plum;
+  padding: 16%;
+  flex-shrink: 5;
+}
+.third {
+  flex-grow: 8;
+  background: rgb(163, 52, 70);
+  margin: 10px 0 10px 10px;
+}
+.first {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}

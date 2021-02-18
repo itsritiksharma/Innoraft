@@ -1,0 +1,55 @@
+h1 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xxx-large;
+}
+p {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20;
+  font-weight: 100;
+}
+#intro {
+  margin: 20px;
+  padding: 80px;
+}
+#blocks {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+.one,
+.two,
+.three {
+  background: darkred;
+}
+
+.content {
+  margin: 10px 10px 10px 10px;
+  background: red;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 5%;
+  padding-left: 6%;
+}
+.logo {
+  flex-grow: 2;
+  padding-left: 30%;
+}
+img {
+  height: 200px;
+  transform: translate(auto, 0);
+}
+h2 {
+  color: white;
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#blocks > div {
+  margin: 0px 10px 0px 0px;
+  padding: 4%;
+}
